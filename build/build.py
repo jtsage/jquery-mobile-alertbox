@@ -45,9 +45,9 @@ if not os.path.exists(options.ver):
 	os.makedirs(options.ver)
 
 if ( options.ver != 'latest' ):
-	fprefix = 'jqm-popupwrap-'+options.ver+'.'
+	fprefix = 'jqm-alertbox-'+options.ver+'.'
 else :
-	fprefix = 'jqm-popupwrap.'
+	fprefix = 'jqm-alertbox.'
 		
 
 for key in files:
